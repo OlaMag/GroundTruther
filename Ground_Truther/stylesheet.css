@@ -1,0 +1,94 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background:#37632d;	
+	align-items: center;
+}
+
+#container{
+	border-radius: 25px;
+	color: #3a3a39;
+	width: 60%; 
+	margin: 20px auto; 
+	background: #a9cfa1; 
+	padding: 20px 20px;
+	box-align: center;
+}
+#map{
+border: solid 1px #37632d;
+padding: 10px;
+border-radius: 25px;
+}
+label{
+color: #4f4f4b;
+width: 120px;
+display:block;
+
+}
+.missing-value{
+color:#ba2b14;
+}
+#logout-div{
+    display: inline;
+    position:relative;
+    float: right;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px 10px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+  }
+button:hover {
+    background-color: white; 
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+input, select{
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+th{
+border: white solid 2px;
+background: #bfd8fc;
+font-size: 1.2rem
+}
+td:hover{
+background:#f9fcbf
+}
+td{
+	border:white solid 2px;
+	background:#e0eaf9
+}
+
+table{
+margin: 5% auto;
+}
+
+#buttons{
+margin: 50px 10px;
+}
+
+#table-div{
+	width: 90%; 
+	margin: 5% auto;
+	background: #bacff2; 
+	padding: 0 5% 5% 5%";
+}
+.form-group > input {
+    width: 50%;
+    maxlength: 40;
+}
+
